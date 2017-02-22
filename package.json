@@ -18,8 +18,10 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "clean-css": "^3.4.5",
-    "ember-cli-babel": "^5.1.7"
+    "broccoli-persistent-filter": "^1.2.13",
+    "clean-css": "^4.0.8",
+    "ember-cli-babel": "^5.1.7",
+    "json-stable-stringify": "^1.0.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",

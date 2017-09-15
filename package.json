@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-clean-css",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "ember-cli addon to run clean-css on css files during build",
   "keywords": [
     "ember-addon"
   ],

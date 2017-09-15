@@ -1,5 +1,7 @@
 # ember-cli-clean-css
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ember-cli/ember-cli-clean-css.svg)](https://greenkeeper.io/)
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation

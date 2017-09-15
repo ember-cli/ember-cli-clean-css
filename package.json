@@ -5,13 +5,20 @@
   "keywords": [
     "ember-addon"
   ],
+  "homepage": "https://github.com/ember-cli/ember-cli-clean-css#readme",
+  "bugs": {
+    "url": "https://github.com/ember-cli/ember-cli-clean-css/issues"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Robert Jackson <me@rwjblue.com>",
+  "main": "index.js",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ember-cli/ember-cli-clean-css.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",

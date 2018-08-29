@@ -27,7 +27,7 @@
   "dependencies": {
     "broccoli-persistent-filter": "^1.2.13",
     "clean-css": "^4.0.8",
-    "ember-cli-babel": "^6.9.0",
+    "ember-cli-babel": "^7.1.0",
     "json-stable-stringify": "^1.0.1"
   },
   "devDependencies": {

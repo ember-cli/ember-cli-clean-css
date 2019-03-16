@@ -1,4 +1,9 @@
----
+branches:
+  only:
+    - master
+    # npm version tags
+    - /^v\d+\.\d+\.\d+/
+
 language: node_js
 node_js:
   - "6"

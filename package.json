@@ -27,13 +27,13 @@
   "dependencies": {
     "broccoli-persistent-filter": "^1.2.13",
     "clean-css": "^4.2.1",
-    "ember-cli-babel": "^6.9.0",
     "json-stable-stringify": "^1.0.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^2.4.1",
     "ember-cli": "2.18.2",
+    "ember-cli-babel": "^6.9.0",
     "ember-cli-dependency-checker": "^3.1.0",
     "ember-cli-eslint": "^4.2.1",
     "ember-cli-htmlbars": "^3.0.1",

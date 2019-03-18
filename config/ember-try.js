@@ -1,5 +1,6 @@
 /* eslint-env node */
 module.exports = {
+  command: 'yarn test',
   scenarios: [
     {
       name: 'ember-lts-2.4',

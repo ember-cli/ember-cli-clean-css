@@ -25,7 +25,7 @@
     "test": "mocha node-tests/**/*-test.js"
   },
   "dependencies": {
-    "broccoli-persistent-filter": "^2.3.0",
+    "broccoli-persistent-filter": "^2.3.1",
     "clean-css": "^4.2.1",
     "json-stable-stringify": "^1.0.1"
   },

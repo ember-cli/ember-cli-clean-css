@@ -44,7 +44,7 @@
     "ember-source": "~3.11.1",
     "execa": "^1.0.0",
     "loader.js": "^4.7.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.2.0"
   },
   "engines": {
     "node": ">= 4"

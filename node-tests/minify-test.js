@@ -4,7 +4,7 @@ const assert = require('assert');
 
 describe('ember-cli-clean-css', function() {
   it('minifies CSS files', function() {
-    this.timeout(20000);
+    this.timeout(60000);
 
     return execa('ember', ['build', '--prod']).then(() => {
       let content = fs.readFileSync(`${__dirname}/../dist/assets/dummy.css`, 'utf8');

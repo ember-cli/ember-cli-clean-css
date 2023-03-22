@@ -1,8 +1,7 @@
-/* eslint-env node */
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-clean-css',
+  name: require('./package').name,
 
   setupPreprocessorRegistry(type, registry) {
     if (type !== 'parent') { return; }

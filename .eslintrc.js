@@ -10,10 +10,7 @@ module.exports = {
       legacyDecorators: true,
     },
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   env: {
     browser: true,
   },
@@ -43,6 +40,15 @@ module.exports = {
       },
       plugins: ['n'],
       extends: ['plugin:n/recommended'],
+    },
+    {
+      // node test files
+      files: ['node-tests/**/*-test.js'],
+      plugins: ['mocha'],
+      extends: ['plugin:mocha/recommended'],
+      rules: {
+        'n/no-unpublished-require': 'off',
+      },
     },
     {
       // test files

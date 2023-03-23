@@ -20,12 +20,17 @@ class CleanCSSFilter extends BroccoliPersistentFilter {
   cacheKeyProcessString(string, relativePath) {
     this.optionsHash = this.optionsHash || jsonStableStringify(this.options);
 
-    return `${this.optionsHash}${super.cacheKeyProcessString(string, relativePath)}`;
+    return `${this.optionsHash}${super.cacheKeyProcessString(
+      string,
+      relativePath
+    )}`;
   }
 
   setupCleanCSS() {
     let inputPath = this.inputPaths[0];
-    let cleanCSSOptions = Object.assign({}, this.options.cleanCSS, { returnPromise: true });
+    let cleanCSSOptions = Object.assign({}, this.options.cleanCSS, {
+      returnPromise: true,
+    });
 
     if (cleanCSSOptions.rebaseTo) {
       cleanCSSOptions.rebaseTo = path.join(inputPath, cleanCSSOptions.rebaseTo);
@@ -35,7 +40,9 @@ class CleanCSSFilter extends BroccoliPersistentFilter {
   }
 
   build() {
-    if (!this.cleanCSS) { this.setupCleanCSS(); }
+    if (!this.cleanCSS) {
+      this.setupCleanCSS();
+    }
 
     return super.build();
   }
@@ -43,9 +50,11 @@ class CleanCSSFilter extends BroccoliPersistentFilter {
   processString(contents, relativePath) {
     let fullPath = path.resolve(this.inputPaths[0], relativePath);
 
-    return this.cleanCSS.minify({
-      [fullPath]: { styles: contents }
-    }).then(result => result.styles);
+    return this.cleanCSS
+      .minify({
+        [fullPath]: { styles: contents },
+      })
+      .then((result) => result.styles);
   }
 }
 

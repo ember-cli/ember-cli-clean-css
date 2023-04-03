@@ -2361,7 +2361,7 @@ broccoli-persistent-filter@^1.1.6:
     symlink-or-copy "^1.0.1"
     walk-sync "^0.3.1"
 
-broccoli-persistent-filter@^2.2.1, broccoli-persistent-filter@^2.3.0, broccoli-persistent-filter@^2.3.1:
+broccoli-persistent-filter@^2.2.1, broccoli-persistent-filter@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/broccoli-persistent-filter/-/broccoli-persistent-filter-2.3.1.tgz#4a052e0e0868b344c3a2977e35a3d497aa9eca72"
   integrity sha512-hVsmIgCDrl2NFM+3Gs4Cr2TA6UPaIZip99hN8mtkaUPgM8UeVnCbxelCvBjUBHo0oaaqP5jzqqnRVvb568Yu5g==
@@ -2381,7 +2381,7 @@ broccoli-persistent-filter@^2.2.1, broccoli-persistent-filter@^2.3.0, broccoli-p
     sync-disk-cache "^1.3.3"
     walk-sync "^1.0.0"
 
-broccoli-persistent-filter@^3.1.2:
+broccoli-persistent-filter@^3.1.2, broccoli-persistent-filter@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/broccoli-persistent-filter/-/broccoli-persistent-filter-3.1.3.tgz#aca815bf3e3b0247bd0a7b567fdb0d0e08c99cc2"
   integrity sha512-Q+8iezprZzL9voaBsDY3rQVl7c7H5h+bvv8SpzCZXPZgfBFCbx7KFQ2c3rZR6lW5k4Kwoqt7jG+rZMUg67Gwxw==

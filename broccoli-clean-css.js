@@ -29,6 +29,7 @@ class CleanCSSFilter extends BroccoliPersistentFilter {
   setupCleanCSS() {
     let inputPath = this.inputPaths[0];
     let cleanCSSOptions = Object.assign({}, this.options.cleanCSS, {
+      rebase: false,
       returnPromise: true,
     });
 

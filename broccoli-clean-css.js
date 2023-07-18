@@ -47,12 +47,10 @@ class CleanCSSFilter extends BroccoliPersistentFilter {
     return super.build();
   }
 
-  processString(contents, relativePath) {
+  async processString(contents, relativePath) {
     let fullPath = path.resolve(this.inputPaths[0], relativePath);
-
-    return this.cleanCSS.minify({
-      [fullPath]: { styles: contents },
-    }).styles;
+    let result = this.cleanCSS.minify({ [fullPath]: { styles: contents } });
+    return (await result).styles;
   }
 }
 

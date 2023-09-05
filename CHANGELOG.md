@@ -1,4 +1,14 @@
 
+
+## v2.0.1 (2023-09-05)
+
+#### :bug: Bug Fix
+* [#303](https://github.com/ember-cli/ember-cli-clean-css/pull/303) Fix relative urls in css having incorrect urls post-minification ([@amk221](https://github.com/amk221))
+
+#### Committers: 1
+- Andrew Kirwin ([@amk221](https://github.com/amk221))
+
+
 ## v2.0.0 (2023-04-05)
 
 #### :boom: Breaking Change

@@ -1,5 +1,15 @@
 
 
+
+## v3.0.0 (2023-09-05)
+
+#### :boom: Breaking Change
+* [#304](https://github.com/ember-cli/ember-cli-clean-css/pull/304) Update `clean-css` to version 5 ([@boris-petrov](https://github.com/boris-petrov))
+
+#### Committers: 1
+- Boris Petrov ([@boris-petrov](https://github.com/boris-petrov))
+
+
 ## v2.0.1 (2023-09-05)
 
 #### :bug: Bug Fix

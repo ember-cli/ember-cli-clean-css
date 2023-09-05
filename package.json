@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-clean-css",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "ember-cli addon to run clean-css on css files during build",
   "keywords": [
     "ember-addon"

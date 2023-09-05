@@ -13,7 +13,7 @@ describe('ember-cli-clean-css', function () {
       );
       assert.strictEqual(
         content,
-        'body{background:#ff8c00}.hello{font-family:sans-serif;font-size:40px;margin-top:30px;text-align:center;background-image:url(images/foo.png)}'
+        `body{background:#ff8c00}.hello{font-family:sans-serif;font-size:40px;margin-top:30px;text-align:center;background-image:url('images/foo.png')}`
       );
     });
   });

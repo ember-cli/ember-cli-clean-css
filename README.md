@@ -1,5 +1,8 @@
 # ember-cli-clean-css
 
+> [!NOTE]  
+> This addon is not needed and is NOT used when [embroider](https://github.com/embroider-build/embroider) is enabled.
+
 ## Installation
 
 ```
